@@ -133,16 +133,6 @@ core rules only. No database code, no web code, no methods with real behavior.
     interface is fine.
   - **Hint:** `public interface IUserRepository : IRepository<User> { }`
 
-- **Task 14: Create ITrackRepository Interface**
-  - **Difficulty:** Easy
-  - **Labels:** `good first issue`, `layer:domain`, `interface`
-  - **Location:** `TalebElm.Domain/Interfaces/`
-  - **Instructions:** Create a public interface named `ITrackRepository`. It
-    should inherit from `IRepository<Track>`. Do not add any members yet. An
-    empty interface is fine.
-  - **Hint:** `public interface ITrackRepository : IRepository<Track> { }`
-
----
 
 ## Phase 2: Application Layer (Tasks 16-25)
 
