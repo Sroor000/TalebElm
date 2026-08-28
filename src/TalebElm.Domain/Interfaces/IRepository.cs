@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using TalebElm.Domain.Entities;
+﻿using TalebElm.Domain.Entities;
 
 namespace TalebElm.Domain.Interfaces
 {
