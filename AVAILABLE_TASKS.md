@@ -133,15 +133,6 @@ the app can do. Here we create empty interfaces and empty DTO records. No logic.
     three fields: `Id` (a Guid), `Name`, and `Description`. Records do not have methods.
   - **Hint:** `public record UpdateTrackRequest(Guid Id, string Name, string Description);`
 
-- **Task 21: Create TrackResponse Record**
-  - **Difficulty:** Very Easy
-  - **Labels:** `good first issue`, `layer:application`, `dto`
-  - **Location:** `TalebElm.Application/DTOs/`
-  - **Instructions:** Create a public record named `TrackResponse`. Add four
-    fields: `Id` (a Guid), `Name`, `Description`, and `Status` (an int).
-    Records do not have methods.
-  - **Hint:** `public record TrackResponse(Guid Id, string Name, string Description, int Status);`
-
 - **Task 22: Create LessonResponse Record**
   - **Difficulty:** Very Easy
   - **Labels:** `good first issue`, `layer:application`, `dto`
