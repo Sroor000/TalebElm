@@ -160,16 +160,6 @@ the app can do. Here we create empty interfaces and empty DTO records. No logic.
     Task of UserResponse). No bodies, no logic.
   - **Hint:** `public interface IUserService { Task<IReadOnlyList<UserResponse>> GetAllAsync(); Task<UserResponse> CreateAsync(CreateUserRequest request); }`
 
-- **Task 24: Create ITrackService Interface**
-  - **Difficulty:** Easy
-  - **Labels:** `layer:application`, `interface`
-  - **Location:** `TalebElm.Application/Services/`
-  - **Instructions:** Create a public interface named `ITrackService`. Add two
-    method signatures only: `GetAllAsync` (returns a Task of a list of
-    TrackResponse) and `CreateAsync` (takes a CreateTrackRequest and returns a
-    Task of TrackResponse). No bodies, no logic.
-  - **Hint:** `public interface ITrackService { Task<IReadOnlyList<TrackResponse>> GetAllAsync(); Task<TrackResponse> CreateAsync(CreateTrackRequest request); }`
-
 ---
 
 ## Phase 3: Infrastructure Layer (Tasks 26-35)
