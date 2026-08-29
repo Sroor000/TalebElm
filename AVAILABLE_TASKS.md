@@ -89,15 +89,6 @@ core rules only. No database code, no web code, no methods with real behavior.
 
 
 
-- **Task 2: Create User Entity**
-  - **Difficulty:** Very Easy
-  - **Labels:** `good first issue`, `layer:domain`, `entity`
-  - **Location:** `TalebElm.Domain/Entities/`
-  - **Instructions:** Create a public class named `User`. It should inherit from
-    `BaseEntity`. Add empty properties for `Name`, `Email`, and `JoinedAt`.
-    Do not add any methods.
-  - **Hint:** `public class User : BaseEntity { public string Name { get; set; } public string Email { get; set; } }`
-
 
 
 
@@ -110,15 +101,6 @@ core rules only. No database code, no web code, no methods with real behavior.
     Enums do not have methods.
   - **Hint:** `public enum LessonType { Text = 0, Video = 1, Exercise = 2 }`
 
-
-- **Task 13: Create IUserRepository Interface**
-  - **Difficulty:** Easy
-  - **Labels:** `good first issue`, `layer:domain`, `interface`
-  - **Location:** `TalebElm.Domain/Interfaces/`
-  - **Instructions:** Create a public interface named `IUserRepository`. It should
-    inherit from `IRepository<User>`. Do not add any members yet. An empty
-    interface is fine.
-  - **Hint:** `public interface IUserRepository : IRepository<User> { }`
 
 
 ## Phase 2: Application Layer (Tasks 16-25)
