@@ -142,13 +142,7 @@ the app can do. Here we create empty interfaces and empty DTO records. No logic.
     Records do not have methods.
   - **Hint:** `public record TrackResponse(Guid Id, string Name, string Description, int Status);`
 
-- **Task 22: Create LessonResponse Record**
-  - **Difficulty:** Very Easy
-  - **Labels:** `good first issue`, `layer:application`, `dto`
-  - **Location:** `TalebElm.Application/DTOs/`
-  - **Instructions:** Create a public record named `LessonResponse`. Add three
-    fields: `Id` (a Guid), `Title`, and `ModuleId` (a Guid). Records do not have methods.
-  - **Hint:** `public record LessonResponse(Guid Id, string Title, Guid ModuleId);`
+
 
 - **Task 23: Create IUserService Interface**
   - **Difficulty:** Easy
