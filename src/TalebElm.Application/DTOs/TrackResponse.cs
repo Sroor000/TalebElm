@@ -1,7 +1,4 @@
-﻿
-
-namespace TalebElm.Application.DTOs
+﻿namespace TalebElm.Application.DTOs
 {
-    public record TrackResponse
-   (Guid Id, string Name, string Description, int Status);
+    public record TrackResponse(Guid Id, string Name, string Description, int Status);
 }
