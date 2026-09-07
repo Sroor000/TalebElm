@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TalebElm.Application.DTOs;
 
 namespace TalebElm.Application.Services
 {
-    internal interface ITrackService
+    public interface ITrackService
     {
+        Task<IReadOnlyList<TrackResponse>> GetAllAsync();
+        Task<TrackResponse> CreateAsync(CreateTrackRequest request);
     }
 }
