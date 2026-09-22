@@ -6,6 +6,6 @@ namespace TalebElm.Tests.IntegrationTests
     public  class TracksControllerTests
     {
         [Fact]
-        public void Get_RetrunsSuccessStatus() { }
+        public void Get_ReturnsSuccessStatus() { }
     }
 }
