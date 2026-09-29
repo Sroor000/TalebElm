@@ -63,7 +63,7 @@ namespace TalebElm.Tests.IntegrationTests
                 var user1 = new UserProgress { UserId = Guid.NewGuid(), ModuleId = moduleId };
                 await _context.AddAsync(user1);
                 await _context.SaveChangesAsync();
-                var countusers = await _context.UserProGresses.CountAsync();
+                var countusers = await _context.UserProgresses.CountAsync();
                 Assert.Equal(2 , countusers);
               
             }
